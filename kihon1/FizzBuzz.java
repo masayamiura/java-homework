@@ -5,17 +5,16 @@ public class FizzBuzz {
 		}
 		int max = Integer.parseInt(args[0]);
 		String result = null;
-		for (int i = 0; i < max; i++) {
-			int num = i + 1;
+		for (int i = 1; i <= max; i++) {
 			result = "";
-			if (num % 3 == 0) {
+			if (i % 3 == 0) {
 				result = result + "Fizz";
 			}
-			if (num % 5 == 0) {
+			if (i % 5 == 0) {
 				result = result + "Buzz";
 			}
 			if (result.length() == 0) {
-				result = result + num;
+				result = result + i;
                 
 			}
 			System.out.print(result + " ");
