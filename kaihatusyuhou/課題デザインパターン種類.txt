@@ -1,0 +1,5 @@
+オブジェクトの生成、プログラムの構造、オブジェクトの振る舞いに関する3つのデザインパターンがあります。
+オブジェクトの生成に関するパターンには、Factory Method、Abstract Factory、Builder、Prototype、Singletonの5種類があります。
+プログラムの構造に関するパターンには、Adapter、Bridge、Composite、Decorator、Facade、Flyweight、Proxyの7種類があります。
+オブジェクトの振る舞いに関するパターンには、Chain of Responsibility、Command、Interpreter、Iterator、Mediator、Memento、
+Observer、State、Strategy、Template Method、Visitorの11種類があります。

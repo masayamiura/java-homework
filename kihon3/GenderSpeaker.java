@@ -7,6 +7,6 @@ public class GenderSpeaker {
 
     private static void doSpeak(AbstractPerson person) {
         person.speak();
-        
+
     }
 }

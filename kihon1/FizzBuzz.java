@@ -15,7 +15,7 @@ public class FizzBuzz {
 			}
 			if (result.length() == 0) {
 				result = result + i;
-                
+
 			}
 			System.out.print(result + " ");
 		}

@@ -1,5 +1,5 @@
 public class TryCatchFinallySample {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 		try {
 			System.out.println("try");
 			Integer.parseInt(args[0]);
